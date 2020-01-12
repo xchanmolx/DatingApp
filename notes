@@ -1,0 +1,66 @@
+Extensions:
+C#
+C# Extensions
+NuGet Package Manager
+
+// Web API
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet tool install --global dotnet-ef --version 3.1.0
+
+// Client
+npm install -g @angular/cli
+ng new DatingApp-SPA
+npm install bootstrap font-awesome
+
+Extensions:
+Angular Snippets
+Angular Files
+Angular Language Service
+Auto Rename Tag
+Bracket Pair Colorizer
+Debugger for Chrome
+Material Icon Theme
+Prettier
+TSLint
+angular2-switcher
+
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ValuesController : ControllerBase
+    {
+        // GET api/values
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get() 
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(int id)
+        {
+            return "value";
+        }
+
+        // POST api/values
+        [HttpPost]
+        public void Post([FromBody] string value)
+        {
+
+        }
+
+        // PUT api/values/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+
+        }
+
+        // DELETE api/values/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+
+        }
+    }
