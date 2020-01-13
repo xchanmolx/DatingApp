@@ -1,3 +1,5 @@
+ASPNET Core and Angular from scratch C#: 3. Security - Video: 13 -> 15:26
+
 Extensions:
 C#
 C# Extensions
@@ -7,11 +9,19 @@ NuGet Package Manager
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet tool install --global dotnet-ef --version 3.1.0
+dotnet add package Microsoft.IdentityModel.Tokens --version 5.6.0
+dotnet add package System.IdentityModel.Tokens.Jwt --version 5.6.0
 
 // Client
 npm install -g @angular/cli
 ng new DatingApp-SPA
 npm install bootstrap font-awesome
+delete .git
+
+// Base Directory
+git init
+create new repository
+copy git remote origin
 
 Extensions:
 Angular Snippets
@@ -24,6 +34,8 @@ Material Icon Theme
 Prettier
 TSLint
 angular2-switcher
+
+DTO - Data Transfer Object
 
     [ApiController]
     [Route("api/[controller]")]
