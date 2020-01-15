@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 3. Security - Video: 13 -> 15:26
+ASPNET Core and Angular from scratch C#: 3. Security - Video: 15 -> 00:00 
 
 Extensions:
 C#
@@ -11,6 +11,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet tool install --global dotnet-ef --version 3.1.0
 dotnet add package Microsoft.IdentityModel.Tokens --version 5.6.0
 dotnet add package System.IdentityModel.Tokens.Jwt --version 5.6.0
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 3.1.1
+dotnet user-secrets
+dotnet user-secrets set "AppSettings:Token" "super secret key"
 
 // Client
 npm install -g @angular/cli
