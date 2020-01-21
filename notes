@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 5. Error Handling - Video: 4 -> 12:08  
+ASPNET Core and Angular from scratch C#: 6. Adding 3rd party components to our app - Video: 6 -> 00:00  
 
 git push -u origin master
 git push -f origin master
@@ -21,7 +21,11 @@ dotnet user-secrets set "AppSettings:Token" "super secret key"
 // Client
 npm install -g @angular/cli
 ng new DatingApp-SPA
-npm install bootstrap font-awesome
+npm install bootstrap font-awesome alertifyjs
+npm install @types/alertifyjs
+npm install @auth0/angular-jwt
+npm install ngx-bootstrap@3.0.1 --save
+npm install bootswatch
 delete .git
 
 // Base Directory
