@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 6. Adding 3rd party components to our app - Video: 6 -> 00:00  
+ASPNET Core and Angular from scratch C#: 7. Routing in Angular - Video: 6 -> 00:00  
 
 git push -u origin master
 git push -f origin master
@@ -26,6 +26,7 @@ npm install @types/alertifyjs
 npm install @auth0/angular-jwt
 npm install ngx-bootstrap@3.0.1 --save
 npm install bootswatch
+ng g guard auth --skipTests // cd to the _guards folder first, then ng g guard auth --skipTests, then Choose 'CanActivate'
 delete .git
 
 // Base Directory
