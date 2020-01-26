@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 8. Extending the API - Video: 11 -> 00:00
+ASPNET Core and Angular from scratch C#: 9. Building a great looking User Interface - Video: 14 -> 10:49
 
 git push -u origin master
 git push -f origin master
@@ -29,6 +29,7 @@ npm install @types/alertifyjs
 npm install @auth0/angular-jwt
 npm install ngx-bootstrap@3.0.1 --save
 npm install bootswatch
+npm install ngx-gallery
 ng g guard auth --skipTests // cd to the _guards folder first, then ng g guard auth --skipTests, then Choose 'CanActivate'
 delete .git
 
