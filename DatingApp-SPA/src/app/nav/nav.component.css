@@ -7,3 +7,7 @@ img {
     border: 2px solid white;
     display: inline; 
 }
+
+.dropdown-item:hover {
+    background-color: orangered;
+}

@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 12. Reactive Forms in Angular - Video: 11 -> 00:00
+ASPNET Core and Angular from scratch C#: 14. Paging, Sorting and Filtering - Video: 1 -> 00:00
 
 git push -u origin master
 git push -f origin master
@@ -16,6 +16,7 @@ dotnet add package Microsoft.IdentityModel.Tokens --version 5.6.0
 dotnet add package System.IdentityModel.Tokens.Jwt --version 5.6.0
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 3.1.1
 dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
+using Microsoft.Extensions.DependencyInjection;
 Ctrl + Shift P - Nuget Package Manager: Add Package - Search AutoMapper - AutoMapper.Extentions.Microsoft.DependencyInjection - Choose the latest version.
 Ctrl + Shift P - Nuget Package Manager: Add Package - Search CloudinaryDotNet
 dotnet user-secrets
@@ -33,6 +34,7 @@ npm install ngx-bootstrap@3.0.1 --save
 npm install bootswatch
 npm install ngx-gallery
 npm install ng2-file-upload --save
+npm install time-ago-pipe --save
 ng g guard auth --skipTests // cd to the _guards folder first, then ng g guard auth --skipTests, then Choose 'CanActivate'
 delete .git
 
