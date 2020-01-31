@@ -1,4 +1,4 @@
-ASPNET Core and Angular from scratch C#: 12. Reactive Forms in Angular - Video: 1 -> 00:00
+ASPNET Core and Angular from scratch C#: 12. Reactive Forms in Angular - Video: 11 -> 00:00
 
 git push -u origin master
 git push -f origin master
@@ -21,6 +21,7 @@ Ctrl + Shift P - Nuget Package Manager: Add Package - Search CloudinaryDotNet
 dotnet user-secrets
 dotnet user-secrets set "AppSettings:Token" "super secret key"
 dotnet ef migrations add ExtendedUserClass
+dotnet ef database update
 
 // Client
 npm install -g @angular/cli
